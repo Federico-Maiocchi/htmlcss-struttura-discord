@@ -109,6 +109,12 @@ body {
     height: 300px;
 }
 
+.debug .footer-page {
+    background-color: #23272A;
+    padding: 20px;
+    height: 300px;
+}
+
 .debug [class^='col-'] {
 	min-height: 180px;
 	padding: 10px;
