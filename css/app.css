@@ -16,7 +16,15 @@ body {
 
 .row {
     display: flex;
-    
+    justify-content: center;
+}
+
+.third-block .row > .col-4 {
+    order: -1;
+}
+
+.col-12 {
+    min-height: 300px;
 }
 /*setting col*/
 .col-1 {
@@ -64,7 +72,6 @@ body {
 }
 
 .col-12 {
-    background-color: pink;
     width: 100%;
 }
 
@@ -82,12 +89,30 @@ body {
 .debug .first-block {
     background-color: blue;
     padding: 20px;
-    height: 200px;
+    height: 300px;
+}
+
+.debug .second-block , .fourth-block {
+    padding: 20px;
+    height: 300px;
+}
+
+.debug .third-block {
+    background-color: #d3d3d3;
+    padding: 20px;
+    height: 300px;
+}
+
+.debug .fifth-block {
+    background-color: #d3d3d3;
+    padding: 20px;
+    height: 300px;
 }
 
 .debug [class^='col-'] {
-	min-height: 100px;
+	min-height: 180px;
 	padding: 10px;
+    background-color: blueviolet;
 	border: 2px solid cornflowerblue;
 	color: white;
 	font-weight: 700;
