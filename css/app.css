@@ -26,6 +26,31 @@ body {
 .col-12 {
     min-height: 300px;
 }
+/*column color*/
+.bk-pink{
+    background-color: pink;
+}
+
+.bk-sky {
+    background-color: #1e90ff ;
+}
+
+.bk-lightblue {
+    background-color: #7fffd4 ;
+}
+
+.bk-blue{
+    background-color: #00008b ;
+}
+
+.bk-yellow {
+    background-color: #daa520 ;
+}
+
+.bk-green {
+    background-color: #228b22;
+}
+
 /*setting col*/
 .col-1 {
     width: calc(100% / 12 * 1);
@@ -89,44 +114,38 @@ body {
 .debug .first-block {
     background-color: blue;
     padding: 20px;
-    height: 300px;
 }
 
 .debug .second-block , .fourth-block {
     padding: 20px;
-    height: 300px;
 }
 
 .debug .third-block {
     background-color: #d3d3d3;
     padding: 20px;
-    height: 300px;
 }
 
 .debug .fifth-block {
     background-color: #d3d3d3;
     padding: 20px;
-    height: 300px;
 }
 
 .debug .footer-page {
     background-color: #23272A;
     padding: 20px;
-    height: 300px;
 }
 
 .debug .end-page {
     background-color: #23272A;
     border-top: 2px solid #d3d3d3;
     padding: 20px;
-    height: 300px;
+    
 }
 
 .debug [class^='col-'] {
 	min-height: 180px;
 	padding: 10px;
-    background-color: blueviolet;
-	border: 2px solid cornflowerblue;
+	border: 1px dashed black;
 	color: white;
 	font-weight: 700;
 }
