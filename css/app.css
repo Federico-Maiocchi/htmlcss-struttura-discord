@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    flex-basis: calc(100% / 3);
+    border: 0 2px;
+    border-style: dashed;
+    border-color: black;
+}
+
+/*debug*/
+
+.debug .page-header {
+    background-color: #a1c8d5;
+    padding: 20px;
+}
+
+.debug .row {
+    
+    background-color: #b3891f;
+    border: 2px dashed black;
+    
+}
+
