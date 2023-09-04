@@ -22,10 +22,6 @@ body {
 .third-block .row > .col-4 {
     order: -1;
 }
-
-.col-12 {
-    min-height: 300px;
-}
 /*column color*/
 .bk-pink{
     background-color: pink;
@@ -142,5 +138,3 @@ body {
 	border: 1px dashed black;
 	color: white;
 }
-
-
