@@ -115,6 +115,13 @@ body {
     height: 300px;
 }
 
+.debug .end-page {
+    background-color: #23272A;
+    border-top: 2px solid #d3d3d3;
+    padding: 20px;
+    height: 300px;
+}
+
 .debug [class^='col-'] {
 	min-height: 180px;
 	padding: 10px;
