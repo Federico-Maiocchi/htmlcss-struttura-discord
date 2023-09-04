@@ -19,12 +19,21 @@ body {
     flex-wrap: wrap;
 }
 
+.row2 {
+    display: flex;
+}
+
 .col-4 {
     flex-basis: calc(100% / 3);
     border: 0 2px;
     border-style: dashed;
     border-color: black;
 }
+
+.col-12 {
+    background-color: pink;
+}
+
 
 /*debug*/
 
@@ -37,6 +46,25 @@ body {
     
     background-color: #b3891f;
     border: 2px dashed black;
+    
+}
+
+.debug .first-block {
+    background-color: blue;
+    padding: 20px;
+    height: 200px;
+}
+
+.first-block .container {
+    max-width: 200px;
+}
+
+.debug .row2 {
+    padding: 20px;
+    border: 2px dashed black;
+    height: 150px;
+    width: 300px;
+    background-color: pink;
     
 }
 
