@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
 }
-
+/*change order block*/
 .third-block .row > .col-4 {
     order: -1;
 }
@@ -113,41 +113,34 @@ body {
 
 .debug .first-block {
     background-color: blue;
-    padding: 20px;
+    
 }
 
 .debug .second-block , .fourth-block {
-    padding: 20px;
+    background-color: white;
 }
 
-.debug .third-block {
+.debug .third-block, .fifth-block {
     background-color: #d3d3d3;
-    padding: 20px;
 }
 
-.debug .fifth-block {
-    background-color: #d3d3d3;
-    padding: 20px;
-}
-
-.debug .footer-page {
+.debug .footer-page, .end-page {
     background-color: #23272A;
     padding: 20px;
 }
 
 .debug .end-page {
-    background-color: #23272A;
     border-top: 2px solid #d3d3d3;
-    padding: 20px;
-    
 }
 
+.debug [class$='block']{
+    padding: 20px;
+}
 .debug [class^='col-'] {
 	min-height: 180px;
 	padding: 10px;
 	border: 1px dashed black;
 	color: white;
-	font-weight: 700;
 }
 
 
