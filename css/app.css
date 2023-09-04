@@ -16,24 +16,57 @@ body {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    
+}
+/*setting col*/
+.col-1 {
+    width: calc(100% / 12 * 1);
 }
 
-.row2 {
-    display: flex;
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
 }
 
 .col-4 {
-    flex-basis: calc(100% / 3);
-    border: 0 2px;
-    border-style: dashed;
-    border-color: black;
+    width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+    width: calc(100% /12 * 7);
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
 }
 
 .col-12 {
     background-color: pink;
+    width: 100%;
 }
-
 
 /*debug*/
 
@@ -43,10 +76,7 @@ body {
 }
 
 .debug .row {
-    
-    background-color: #b3891f;
-    border: 2px dashed black;
-    
+    padding: 10px;
 }
 
 .debug .first-block {
@@ -55,16 +85,12 @@ body {
     height: 200px;
 }
 
-.first-block .container {
-    max-width: 200px;
+.debug [class^='col-'] {
+	min-height: 100px;
+	padding: 10px;
+	border: 2px solid cornflowerblue;
+	color: white;
+	font-weight: 700;
 }
 
-.debug .row2 {
-    padding: 20px;
-    border: 2px dashed black;
-    height: 150px;
-    width: 300px;
-    background-color: pink;
-    
-}
 
