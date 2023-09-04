@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ body {
     background-color: #228b22;
 }
 
-/*setting col*/
+/*setting column*/
 .col-1 {
     width: calc(100% / 12 * 1);
 }
@@ -109,7 +109,6 @@ body {
 
 .debug .first-block {
     background-color: blue;
-    
 }
 
 .debug .second-block , .fourth-block {
@@ -129,7 +128,7 @@ body {
     border-top: 2px solid #d3d3d3;
 }
 
-.debug [class$='block']{
+.debug [class$='block'] {
     padding: 20px;
 }
 .debug [class^='col-'] {
