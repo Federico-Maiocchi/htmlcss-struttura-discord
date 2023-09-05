@@ -18,6 +18,14 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
 /*change order block*/
 .third-block .row > .col-4 {
     order: -1;
@@ -119,6 +127,24 @@ body {
     background-color: #d3d3d3;
 }
 
+
+.debug [class$='block'] {
+    padding: 20px;
+}
+
+.debug header [class^='col-'] {
+    min-height: 50px;
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.debug main [class^='col-'] {
+	min-height: 180px;
+	padding: 10px;
+	border: 1px dashed black;
+	color: white;
+}
+
 .debug .footer-page, .end-page {
     background-color: #23272A;
     padding: 20px;
@@ -128,12 +154,13 @@ body {
     border-top: 2px solid #d3d3d3;
 }
 
-.debug [class$='block'] {
-    padding: 20px;
+.debug .footer-page [class^='col-'] {
+    min-height: 180px;
+    padding: 10px;
+    border: 1px dashed black;
 }
-.debug [class^='col-'] {
-	min-height: 180px;
-	padding: 10px;
-	border: 1px dashed black;
-	color: white;
+
+.debug .end-page [class^='col'] {
+    min-height: 50px;
+    padding: 10px;
 }
